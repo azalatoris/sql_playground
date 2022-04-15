@@ -53,6 +53,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_15_051436) do
   create_table "seats", force: :cascade do |t|
     t.integer "bus_model_id", null: false
     t.string "label"
+    t.integer "order"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["bus_model_id"], name: "index_seats_on_bus_model_id"
