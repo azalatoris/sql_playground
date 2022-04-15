@@ -28,3 +28,7 @@ group :development do
   # gem "spring"
 end
 
+
+gem "rspec-rails", "~> 5.1"
+
+gem "faker", "~> 2.20"
