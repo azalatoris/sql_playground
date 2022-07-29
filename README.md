@@ -10,20 +10,26 @@ Consider a basic bus ticketing system, a brief explanation of the domain follows
 
 ## Example Queries
 
-* Trip with the most tickets sold
-* Route with the most trips
-* Route with the most tickets sold
-* Stops with the most tickets that passed through
-* Stops with the most tickets as initial stop of route
-* Stops with the most tickets as final stop of route
-* Users with the most trips as buyer/passenger
-* Users with the most tickets as buyer/passenger
-* Users with the most sales bought
-* Users with the most total sales amount as buyer
-* Every user that has been through a certain stop between certain dates ordered
-  by the amount of times they passed
-* Many more...
+* Trip with the most tickets sold ✅
+* Route with the most trips ✅
+* Route with the most tickets sold ✅
+* Stops with the most tickets that passed through ✅
+* Stops with the most tickets as initial stop of route ✅
+* Stops with the most tickets as final stop of route ✅
+* Users with the most trips as buyer/passenger ✅
+* Users with the most tickets as buyer/passenger ✅
+* Users with the most sales bought ✅
+* Users with the most total sales amount as buyer ✅
+* Every user that has been through a certain stop between certain dates ordered ✅
+  by the amount of times they passed -->
 
-WIP: add more ordered related stuff, more nested queries, et c.
+* Many more...
+* Seat with the most tickets ✅
+* Buses that were going through a specific stop ✅
+* Bus with the most trips ✅
+* Find the last seat of a specific passenger 
+
+
+
 
 https://www.yworks.com/yed-live/?file=https://gist.githubusercontent.com/vaporyhumo/178e1fa3fbc9ac90f514b24711248203/raw/8f3333309f0b52f58d10104c204a7ac8357a7744/sql-eval
